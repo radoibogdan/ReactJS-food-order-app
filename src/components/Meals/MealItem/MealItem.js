@@ -10,10 +10,10 @@ const MealItem = (props) => {
 
   const addToCardHandler = amount => {
     cartCtx.addItem({
-      id: props.id,
-      name: props.name,
+      id    : props.id,
+      name  : props.name,
       amount: amount,
-      price: props.price
+      price : props.price
     })
   }
 
